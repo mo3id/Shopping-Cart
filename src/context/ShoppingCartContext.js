@@ -18,7 +18,6 @@ const ShoppingCartProvider = ({ children }) => {
     localStorage.setItem('shopping-cart', JSON.stringify(cartItems))
   }, [cartItems])
 
-
   const openCart = () => {
     setIsOpen(true)
   }
